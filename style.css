@@ -1,0 +1,239 @@
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html{
+    background-image: linear-gradient(#FC5E55,#FA4083);
+}
+body {
+    background-image: url(images/image-lion-background.png); 
+    background-position: top center; 
+    background-repeat: no-repeat; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem; 
+         
+
+}
+.main2{
+    min-height: 300px; 
+    padding-top: 50px; 
+}
+
+
+a {
+    color: white; 
+    text-decoration: none; 
+}
+/* take care of all a tags in the website and make it white and no underline */
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px; 
+    /* margin-top: 10px;  */
+    display: inline-block; 
+    border-radius: 2px; 
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.308); 
+   
+}
+.mybutton:hover{
+    background-color: skyblue; 
+    transition-duration: 1s; 
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    display: flex;  
+    align-items: center; 
+    justify-content: space-between; 
+    border-bottom: 1px solid white;
+}
+main {
+    min-height: 300px;
+    display: flex; 
+    align-items: center; 
+    
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+    /* text align for everything the card */
+}
+.card1{
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover; 
+    background-position: bottom; 
+    min-height: 250px;
+    width: 30%; 
+    /* 33% of the total width of the container*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.308); 
+}
+
+.card2{
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover; 
+    background-position: bottom; 
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.308); 
+
+
+}
+.card3{
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover; 
+    background-position: bottom; 
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.308); 
+
+}
+.herobox1 {
+    flex: 2; 
+    padding-right: 100px; 
+}
+.herobox2 {
+    flex: 1; 
+ 
+}
+h1 {
+    font-size: 3.25rem; 
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem; 
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.308); 
+}
+p {
+    line-height: 1.75rem;
+    /* half of the actual font size is nice to start  with */
+    margin-bottom: 0.5rem; 
+
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px; 
+}
+
+.cards p{
+    font-size: 0.85rem; 
+    line-height: 1.2rem; 
+    margin-top: 10px; 
+    /* top right bottom left (going clockwise) */
+
+}
+
+i{
+    font-size: 100px;
+
+
+}
+
+
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px; 
+    box-sizing: border-box; 
+}
+.herobox2 img{
+    border-radius: 12px; 
+}
+.navbutton {
+    border-style: solid;
+    border-width: 1px; 
+    border-color: white; 
+    font-family:  'Playfair Display', serif;
+    color: white; 
+    padding: 10px 30px; 
+    display: inline-block; 
+    position: relative; 
+
+}
+/* nav a{
+    padding: 10px 30px 10px 30px; 
+} */
+.tbox {
+    width: 47%; 
+    padding: 50px; 
+    border: 1px solid white; 
+    box-sizing: border-box; 
+    margin-top: 50px; 
+}
+.testimonials {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-bottom: 100px; 
+}
+
+/* .tbox :last-child{
+    font-size: 0.8rem; 
+} */
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px; 
+}
+
+.dropdown {
+    display: none;
+    position: absolute; 
+    z-index: 2px; 
+    text-align: center; 
+    padding-top: 0px; 
+    margin-left: -25px; 
+   
+}
+.navbutton:hover .dropdown{
+    display: block; 
+}
+.dropdown .navbutton{
+     background-color: white;
+  
+}
+
+.dropdown .navbutton a {
+      color: #fa4083; 
+
+}
+
+.dropdown .navbutton:hover{
+    background: pink;
+    transition-duration: 1s; 
+
+}
+
+.inputwrapper {
+    margin-bottom: 30px; 
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px; 
+    width: 100%; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.85rem; 
+    box-sizing: border-box; 
+
+}
+
+.newline {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+input[type=radio]{
+    margin-right: 10px; 
+
+}
+
+.mybutton{
+    border: none; 
+}
+
+form {
+    margin: 40px 0px; 
+}
